@@ -1,6 +1,6 @@
 package game;
 
-public class Sissors implements ChoiceStrategy {
+public class Scissors implements ChoiceStrategy {
     public boolean isWinWith(ChoiceStrategy oponent) {
         return oponent instanceof Paper;
     }
